@@ -111,7 +111,6 @@ class Snake_Game:
         self.window.blit(text, [0,0])
         pygame.display.flip()
 
-
     def Snake_movement(self, direction):
         x = self.head.x
         y = self.head.y
